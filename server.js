@@ -9,7 +9,7 @@ const app = express();
 // Routes 
 
 app.get('/', (req, res) => {
-  res.status(200).send('Hello from server home route');
+  res.status(200).send('Hello From server home route');
 });
 
 

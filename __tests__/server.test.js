@@ -19,7 +19,7 @@ describe('Test server', () => {
     it('handle home route', async () => {
         let response = await serverRequest.get('/')
         expect(response.status).toEqual(200);
-        expect(response.text).toEqual('Hello from server home route');
+        expect(response.text).toEqual('Hello From server home route');
     })
 })
  
